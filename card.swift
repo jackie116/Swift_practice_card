@@ -50,6 +50,7 @@ for i in 0...29 {
     lakeImageView.addSubview(bottomEmoji)
 }
 
+//right & left
 for i in 0...21 {
     var leftEmoji = UILabel(frame: CGRect(x: 50, y: i*50+50, width: 50, height: 50))
     leftEmoji.text = emojis.randomElement()
